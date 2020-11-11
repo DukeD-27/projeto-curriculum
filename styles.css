@@ -34,7 +34,7 @@ img{
 
 /*Classe da fotos de Perfil*/
 .foto{
-   float:center;width:10%;
+   float:center;width:100%;
    background-attachment: fixed;
    margin-right: 1%;
    margin-left: 10pt;
@@ -43,7 +43,7 @@ img{
 
 /*Classe da foto Seta */
 .seta{
-    width: 5%; 
+    width: 100%; 
 }
 
 /*ID dos Titulos */
