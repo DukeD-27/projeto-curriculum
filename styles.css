@@ -18,7 +18,7 @@ a{
     color:white;
     text-decoration:none; 
     text-align: center;
-    font-size: 15;
+    font-size: 15px;
 }
 
 a:hover{
@@ -34,7 +34,7 @@ img{
 
 /*Classe da fotos de Perfil*/
 .foto{
-   float:center;width:30%;
+   float:center;width:20%;
    background-attachment: fixed;
    margin-right: 1%;
    margin-left: 10pt;
@@ -49,15 +49,7 @@ img{
 /*ID dos Titulos */
 #titulo{
     font-size: 40px;
-    margin: 1%;
+
 }
 
-ul{
-    margin-left: 60pt;
-    margin-top: 0cm;
-}
 
-li{
-    margin-left: 60pt;
-    margin-top: 0cm;
-}
