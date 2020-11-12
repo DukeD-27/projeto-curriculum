@@ -44,6 +44,7 @@ img{
 /*Classe da foto Seta */
 .seta{
     width: 6%; 
+    margin-left: 10px; 
 }
 
 /*ID dos Titulos */
