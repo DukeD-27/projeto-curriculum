@@ -7,11 +7,8 @@
 
 /*Banner*/
 .banner{
-    background-image: url("logo1edit.jpg");
     width: 100%;
-    background-size: cover;
-   
-   
+    background-size: cover;    
 }
 
 /*Imagem de Fundo*/
