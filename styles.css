@@ -1,0 +1,108 @@
+/*Resetando conf padrão */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+}
+
+/*Banner*/
+.banner{
+    background-image: url("logo1edit.jpg");
+    width: 100%;
+    background-size: cover;
+   
+   
+}
+
+/*Imagem de Fundo*/
+#fotofundo{
+    background-image: url("fotofundo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/*Cabeçalho*/
+h1, p{
+    text-align: center;
+}
+
+h1{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 40px;
+}
+
+p{
+    color: #fff;
+}
+
+/*Descrição do Mini-Curriculo*/
+.descricao{
+    color: #fff;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+}
+
+.txtC{
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/*Galeria*/
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    width: 200px;
+    margin: 25px;
+    border: 2px solid #8B0000;
+    background-size: center;
+}
+
+.card-image{
+    height: 200px;
+    background-size: cover;
+}
+
+.card-1 .card-image{
+    background-image: url("https://media-exp1.licdn.com/dms/image/C4E03AQEZsGLJIeBjlA/profile-displayphoto-shrink_200_200/0?e=1608163200&v=beta&t=uywQF_YfQ2muzyfNOAf0n__TNlJSpRVilWZvTG2eH1s");
+}
+
+.card-2 .card-image{
+    background-image: url("https://media-exp1.licdn.com/dms/image/C5603AQEgS690dGR6Pg/profile-displayphoto-shrink_200_200/0?e=1608163200&v=beta&t=VbVU_YToynqeB5rhUjrM8rR3BBYay6ykyA0PmUDXHHo");
+}
+
+.card-3 .card-image{
+    background-image: url("https://media-exp1.licdn.com/dms/image/C5603AQE4M_MQqYVg5g/profile-displayphoto-shrink_200_200/0?e=1608163200&v=beta&t=bw3xrXjzmow8-_XLsCYfCG387IRwgaEGRteBogVmqnQ");
+}
+
+.btn{
+    display: block;
+    background-color: #8B0000;
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    transition: .5s;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #8B0000;
+    border-color: #8B0000;
+}
+
+.card-description{
+    padding: 20px 10px;
+}
